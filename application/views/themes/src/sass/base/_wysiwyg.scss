@@ -1,0 +1,20 @@
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft{
+	float:left;
+
+}
+
+.alignright{
+	float:right;
+}
+
+.article-content  img.aligncenter{
+    max-width:100%;
+  	margin-left: auto;
+    margin-right: auto;
+}
