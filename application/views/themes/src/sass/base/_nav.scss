@@ -17,7 +17,6 @@ nav ul li div.subMenu{
     z-index: 999;
 }
 
-
 div.subMenu ul li{
     display: block;
     float:none;
@@ -25,12 +24,38 @@ div.subMenu ul li{
 
 div.subMenu ul li a{
     color:#2196f3;
+    padding: 0;
+    height:inherit;
 }
 
 
 #mobile-menu li.logo a{
     height:80px;
     position: relative;
+}
+
+
+#mobile-menu  .collapsible-header,
+#mobile-menu > li{
+        margin: 0;
+}
+
+#mobile-menu.side-nav li.logo:hover,
+#mobile-menu.side-nav li.search:hover,
+#mobile-menu.side-nav li.deroule:hover{
+    background-color: #fafafa;
+}
+
+#mobile-menu.side-nav li:hover{
+    background-color: rgba(144, 202, 249, 1);
+}
+
+#mobile-menu.side-nav li:active{
+    background-color: rgba(144, 202, 249, 0.6);
+}
+
+#mobile-menu.side-nav li.search{
+    margin: 20px 0;
 }
 
 #mobile-menu li.search .search-wrapper input#search {
@@ -55,4 +80,5 @@ div.subMenu ul li a{
     right: 10px;
     top: 10px;
     color:#2196f3;
+    line-height: 30px;
 }

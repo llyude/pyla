@@ -21,10 +21,35 @@
                     <li><a href="#">Sportswear</a></li>
                     <li><a href="#">Ballerines</a></li>
                 </ul>
+                <div class="col l4">
+                        <a href="#"><img src="img/test-mini3.jpg" alt=""></a>
+                        <p>Card Title</p>
+                        <a href="#"><img src="img/test-mini3.jpg" alt=""></a>
+                        <p>Card Title</p>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">Tee-shirts</a>
+            <div class="subMenu white blue-text row">
+                <ul class="col l4">
+                    <li><a href="#">Bottes</a></li>
+                    <li><a href="#">Escarpins</a></li>
+                    <li><a href="#">Sandales</a></li>
+                    <li><a href="#">Chaussure de ville</a></li>
+                    <li><a href="#">Sportswear</a></li>
+                    <li><a href="#">Ballerines</a></li>
+                </ul>
+                <ul class="col l4">
+                    <li><a href="#">Bottes</a></li>
+                    <li><a href="#">Escarpins</a></li>
+                    <li><a href="#">Sandales</a></li>
+                    <li><a href="#">Chaussure de ville</a></li>
+                    <li><a href="#">Sportswear</a></li>
+                    <li><a href="#">Ballerines</a></li>
+                </ul>
 
             </div>
         </li>
-        <li><a href="#">Tee-shirts</a></li>
         <li><a href="#">Chemises</a></li>
         <li><a href="#">Pantalons</a></li>
         <li><a href="#">Manteaux</a></li>
@@ -32,7 +57,7 @@
         <li><a href="#">Accessoires</a></li>
       </ul>
       <ul class="side-nav" id="mobile-menu">
-          <li class="logo"><a id="logo-container" href="img/logo.png" class="brand-logo">
+          <li class="logo"><a id="logo-container" href="" class="brand-logo">
             <img src="img/logo.png"></a></li>
         <li class="search no-padding">
           <div class="search-wrapper card">
@@ -40,10 +65,10 @@
             <div class="search-results"></div>
           </div>
         </li>
-          <li class="no-padding">
+          <li class="no-padding deroule">
               <ul class="collapsible collapsible-accordion">
                   <li>
-                      <a class="collapsible-header waves-effect waves-teal">Chaussures</a>
+                      <a class="collapsible-header waves-effect waves-blue">Chaussures</a>
                       <div class="collapsible-body">
                           <ul>
                               <li><a href="#">Bottes</a></li>
@@ -56,7 +81,7 @@
                       </div>
                   </li>
                   <li>
-                      <a class="collapsible-header waves-effect waves-teal">Tee-shirts</a>
+                      <a class="collapsible-header waves-effect waves-blue">Tee-shirts</a>
                       <div class="collapsible-body">
                           <ul>
                               <li><a href="#">Bottes</a></li>
@@ -69,7 +94,7 @@
                       </div>
                 </li>
                 <li>
-                    <a class="collapsible-header waves-effect waves-teal">Chemises</a>
+                    <a class="collapsible-header waves-effect waves-blue">Chemises</a>
                     <div class="collapsible-body">
                         <ul>
                             <li><a href="#">Bottes</a></li>
@@ -82,7 +107,7 @@
                     </div>
               </li>
               <li>
-                  <a class="collapsible-header waves-effect waves-teal">Pantalons</a>
+                  <a class="collapsible-header waves-effect waves-blue">Pantalons</a>
                   <div class="collapsible-body">
                       <ul>
                           <li><a href="#">Bottes</a></li>
@@ -96,8 +121,8 @@
             </li>
             </ul>
           </li>
-          <li><a href="#">Chaussettes</a></li>
-          <li><a href="#">Accessoires</a></li>
+          <li class="no-padding"><a href="#">Chaussettes</a></li>
+          <li class="no-padding"><a href="#">Accessoires</a></li>
       </ul>
     </div>
 </nav>

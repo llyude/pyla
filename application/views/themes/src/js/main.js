@@ -4,13 +4,8 @@
 jQuery(document).ready(function($) {
     $(".button-collapse").sideNav();
 
-    $('nav.main-nav ul.desktop li').mouseenter(function() {
-        $("nav.main-nav ul.desktop li > div.subMenu").show();
-    });
-    $('nav.main-nav ul.desktop li').mouseleave(function(event) {
-        $("nav.main-nav ul.desktop li > div.subMenu").hide();
-    });
-
+    hoverEvent('nav.main-nav ul.desktop li');
+    hoverEvent('.top-products>div');
     //centerMenu("ul.desktop");
 });
 
@@ -18,4 +13,14 @@ jQuery(document).ready(function($) {
 function centerMenu(menu){
     var ulWidth = $(menu).width();
     $(menu).attr("width", ulWidth);
+
+}
+
+function hoverEvent(parent){
+    $(parent).mouseenter(function() {
+        $(this).children("div").show();
+    });
+    $(parent).mouseleave(function() {
+        $(this).children("div").hide();
+    });
 }
